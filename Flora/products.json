@@ -1,0 +1,22 @@
+[
+  {
+    "name": "SHOES",
+    "price": 15.99,
+    "image": "images/shoes (1).jpeg"
+    
+  }
+  {
+    "name": "Vintage Shirt",
+    "price": 49.99,
+    "image": "images/vintage1.jpeg"
+  }
+  {
+    "name": "Vintage Shirt",
+    "price": 89.99,
+    "image": "images/vintage2.jpeg"
+  }
+{
+    "name": "SHOES",
+    "price": 89.99,
+    "image": "images/g.jpeg"
+}

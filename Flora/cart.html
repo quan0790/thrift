@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thrift Shop</title>
+  <link rel="stylesheet" href="styles1.css">
+  <script src="f.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="logo.png" alt="Thrift Shop Logo">
+      <h1>Cart</h1>
+    </div>
+    
+  </header>
+
+  <main>
+    <!-- Existing code omitted for brevity -->
+
+    <h2>Payment Methods</h2>
+
+    <form id="payment-form">
+      <label for="payment-method">Choose a Payment Method:</label>
+      <select id="payment-method" name="payment-method">
+        <option value="visa">
+          Visa <img src="v.png" alt="Visa Logo">
+        </option>
+        <option value="mpesa">
+          M-Pesa <img src="mpesa-logo.png" alt="M-Pesa Logo">
+        </option>
+        <option value="paypal">
+          PayPal <img src="paypal-logo.png" alt="PayPal Logo">
+        </option>
+        <option value="bongapoints">
+          BongaPoints <img src="bongapoints-logo.png" alt="BongaPoints Logo">
+        </option>
+      </select>
+      <div id="credit-card-details" style="display: none;">
+        <h3>Enter Credit Card Details:</h3>
+        <!-- Credit card form fields -->
+        <label for="card-number">Card Number:</label>
+        <input type="text" id="card-number" name="card-number">
+
+        <label for="card-holder">Card Holder:</label>
+        <input type="text" id="card-holder" name="card-holder">
+
+        <label for="expiry-date">Expiry Date:</label>
+        <input type="text" id="expiry-date" name="expiry-date">
+
+        <label for="cvv">CVV:</label>
+        <input type="text" id="cvv" name="cvv">
+      </div>
+
+      <div id="shipping-address-details">
+        <h3>Shipping Address:</h3><br>
+        <label for="address-line-1">Address Line 1:</label>
+        <input type="text" id="address-line-1" name="address-line-1">
+
+        <label for="address-line-2">Address Line 2:</label>
+        <input type="text" id="address-line-2" name="address-line-2">
+
+        <label for="city">City:</label>
+        <select id="city" name="city">
+          <option value="Nairobi">select a city</option>
+          <option value="Mombasa">Nairobi</option>
+          <option value="Nakuru">Mombasa</option>
+          <option value="Kisumu">Nakuru</option>
+          <option value="Eldoret">Kisumu</option>
+          <option value="Thika">Eldoret</option>
+          <option value="Busia">Thika</option>
+          <option value="">Busia</option>
+        </select><br>
+
+        <label for="state">State/Province:</label>
+        <input type="text" id="state" name="state">
+
+        <label for="zip-code">Zip/Postal Code:</label>
+        <input type="text" id="zip-code" name="zip-code">
+
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country">
+      </div>
+
+      <input type="submit" value="Proceed to Payment">
+    </form>
+
+  </main>
+
+  <footer>
+    <p style="font-style: italic;">&copy; 2023 Twice but Nice. All rights reserved.</p>
+  </footer>
+  <script src="f.js"></script>
+</body>
+</html>

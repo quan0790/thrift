@@ -1,0 +1,51 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="sign.css">
+  </head>
+  <body>
+  
+<form id="signup-form">
+  <h2>Create an Account</h2>
+  <div>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+  </div>
+  <div>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+  </div>
+  <div>
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required>
+  </div>
+  <div>
+    <label for="sex">Sex:</label>
+    <select id="sex" name="sex" required>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+    </select>
+  </div>
+  <div>
+    <label for="nationality">Nationality:</label>
+    <input type="text" id="nationality" name="nationality" required>
+  </div>
+  <div>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" minlength="8" required>
+  </div>
+  <div>
+    <label for="confirm-password">Confirm Password:</label>
+    <input type="password" id="confirm-password" name="confirm-password" minlength="8" required>
+  </div>
+  <button type="submit">Create Account</button>
+</form>
+<footer>
+    
+    <p style="font-style: italic;">&copy; 2023 Twice but Nice. All rights reserved.</p>
+  </footer>
+<script src="sign.js"></script>
+</body>
+</html>
